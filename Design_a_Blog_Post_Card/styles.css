@@ -1,0 +1,51 @@
+body{
+  background-color:rgb(240, 235, 236);
+}
+
+.blog-post-card{
+  margin-top:150px;
+  border-radius:20px;
+  background-color:white;
+  text-align:center;
+  font-family:sans-serif;
+  width:350px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.read-more{
+  font-family:sans-serif;
+  height:35px;
+  color:white;
+  text-decoration:none;
+  background-color:rgb(37, 37, 37);
+  border-radius:5px;
+  margin:20px auto;
+  width:100px;
+  font-size:16px;
+}
+p{
+  color:grey;
+}
+.read-more:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.post-content {
+  padding: 15px;
+}
+.post-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 100%;
+  border-bottom: 2px solid #ddd; /* alt kenar çizgisi */
+}
+.post-title{
+  color:black;
+  margin:10px auto;
+}
+.post-excerpt{
+  color:grey;
+  margin:10px auto;
+}
