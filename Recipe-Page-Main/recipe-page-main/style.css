@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(246, 232, 209);
+}
+.recipe-page-main{
+    margin: 100px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 60%;
+
+}
+.omelette-img{
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+p , li{
+    color: rgb(79, 79, 79);
+}
+strong{
+    color: rgb(50, 49, 49);
+}
+h2{
+    color: rgb(171, 64, 6);
+}
+ol li::marker {
+    color: rgb(171, 64, 6);
+}
+ul li::marker {
+    color: rgb(171, 64, 6);
+}
+.preparation-time{
+    background-color: rgb(252, 239, 241);
+    padding: 15px;
+    border-radius: 10px;
+}
+h3{
+    color: rgb(177, 80, 124);
+}
+td{
+    padding-left: 250px;
+    color: rgb(171, 64, 6);
+    font-weight: bold;
+}
+table {
+    border-collapse: separate; /* Hücreleri ayrı yap */
+    border-spacing: 0 10px;    /* 0 yatay boşluk, 10px dikey boşluk */
+    width: 100%;
+}
+
+table tr ,hr {
+    background-color: #fff;         /* Satır arka planı beyaz */
+    box-shadow: 0 2px 0 #f0efef;       /* Alt çizgi gibi gözüksün */
+}
+
+
+table tr:last-child {
+    border-bottom: none; /* Son satırda çizgi olmasın */
+}
+
+

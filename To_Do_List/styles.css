@@ -1,0 +1,21 @@
+body{
+  background-color:rgb(218, 216, 216);
+}
+.my-to-do-list{
+  background-color:white;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  color:rgb(34, 34, 121);
+}
+a:active{
+  color:red;
+}
+a:focus {
+  outline: 2px blue; 
+}
+a:visited{
+  color:pink;
+}
